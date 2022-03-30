@@ -1,0 +1,17 @@
+.footer{
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    background-color: var(--bg-color);
+}
+
+.footer p{
+    font-weight: 500;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.3rem;
+}
