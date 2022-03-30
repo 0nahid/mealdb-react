@@ -12,7 +12,7 @@ const Header = () => {
             <h2 className='header-title'><Link to="/">Pig'N PanCake</Link></h2>
                 <nav>
                     <input type="checkbox" id="check" />
-                    <label for="check" className='checkbtn'>
+                    <label htmlFor="check" className='checkbtn'>
                     <RiMenu4Fill className='nav-bar-icon'></RiMenu4Fill>
                     </label>
                     <ul className='navbar-items'>
