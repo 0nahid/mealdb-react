@@ -6,13 +6,9 @@ const Footer = () => {
     return (
         <div className='footer'>
             <div>
-                <p>&copy; Copyright by Pig'N PanCake 2022 | Toufiq Hasan Kiron</p>
+                <p>&copy; All rights reserved by Pig'N PanCake 2022 | Toufiq Hasan Kiron</p>
             </div>
             <div className='footer-icons'>
-                {/* <BsFacebook></BsFacebook>
-                <BsInstagram></BsInstagram>
-                <BsTwitter></BsTwitter>
-                <BsGithub></BsGithub> */}
                 <a target="_blank" rel="noreferrer noopener" href="https://facebook.com/toufiqhasankiron"><BsFacebook className='fb'></BsFacebook></a>
 
                 <a target="_blank" rel="noreferrer noopener" href="https://instagram.com/toufiq_hasan_kiron"><BsInstagram className='inst'></BsInstagram></a>
