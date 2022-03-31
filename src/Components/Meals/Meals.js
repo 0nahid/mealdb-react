@@ -31,7 +31,6 @@ const Meals = () => {
             );
         }
     return (
-        <>
         <div className='container'>
             <h2>Find the food you want</h2>
             <input onChange={searchFood} type="text" placeholder='Search your food...' />
@@ -41,8 +40,6 @@ const Meals = () => {
                 }
             </div>
         </div>
-        <Footer></Footer>
-        </>
     );
 };
 

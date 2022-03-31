@@ -17,6 +17,22 @@
     .about{
         width: 70%;
         padding: 30px;
-        margin: 8rem auto;
+        margin: 3rem auto;
+    }
+}
+
+@media screen and (min-width: 776px) {
+    .about{
+        width: 70%;
+        padding: 30px;
+        margin: 15rem auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .about{
+        width: 50%;
+        padding: 70px;
+        margin: 15rem auto;
     }
 }
